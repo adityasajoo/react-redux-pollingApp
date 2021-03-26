@@ -14,10 +14,7 @@ app.use("/",require('./routes/poll'));
 const PORT = process.env.PORT||5000;
 //create tables
 app.listen(PORT, async () => {
-    //console.log("Server up on port 3000");
-    // await sequelize.sync({
-    //     force: true
-    // });
+
   await sequelize.authenticate();
     console.log("DB Connected");
     console.log(`App running in port ${PORT}`)
