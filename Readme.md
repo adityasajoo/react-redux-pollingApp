@@ -35,7 +35,7 @@ For development, you will require need Node.js and postgres installed in your sy
         -cd pollingAppServer
         -npm install
 
-        NOTE : Don't change the server port (4000)
+        NOTE : Don't change the server port (5000)
         
     * client
         -cd polling-frontend
