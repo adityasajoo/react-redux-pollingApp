@@ -43,7 +43,7 @@ For development, you will require need Node.js and postgres installed in your sy
         -npm run build
         
     *Setup the database
-      (Make sure postgres is installed and Sequelize is installed globally )
+      (Make sure postgres is installed and Sequelize-cli is installed globally [npm install -g sequelize-cli] )
        -cd pollingAppServer
        - Change the postgress Username and password in './config/config.json'.
        -Sequelize db:create
